@@ -1,0 +1,170 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px; /* Tamanho da fonte reduzido */
+    line-height: 1.4;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho do título menor */
+    color: #00aaff; /* Neon azul */
+    text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff, 0 0 40px #00aaff;
+    margin-bottom: 20px; /* Menor espaço abaixo do título */
+}
+
+h2 {
+    color: #00aaff; /* Neon azul */
+    text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 30px #00aaff;
+    margin-top: 15px;
+    margin-bottom: 10px; /* Menor espaço */
+}
+
+button {
+    background-color: #00aaff; /* Neon azul */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em; /* Tamanho de fonte do botão reduzido */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 0 0 5px #00aaff;
+}
+
+button:hover {
+    background-color: #0099cc;
+    text-shadow: 0 0 10px #0099cc, 0 0 20px #0099cc;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 15px; /* Menor espaço abaixo da tabela */
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: fixed; /* Fixando o tamanho das colunas */
+}
+
+table, th, td {
+    border: 1px solid #444;
+    text-align: center;
+}
+
+th, td {
+    padding: 6px 8px; /* Reduzindo o padding */
+    font-size: 0.9em; /* Reduzindo o tamanho da fonte */
+    text-align: center;
+}
+
+th {
+    background-color: #00aaff; /* Neon azul */
+    color: white;
+    text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff;
+}
+
+tr:nth-child(even) {
+    background-color: #222;
+}
+
+td input[type="number"],
+td input[type="text"] {
+    padding: 6px;
+    margin: 4px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+    width: 100%;
+}
+
+td input[type="number"]:focus,
+td input[type="text"]:focus {
+    outline: none;
+    border: 1px solid #00aaff;
+}
+
+td button {
+    background-color: #00aaff;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-size: 0.85em; /* Fonte menor no botão */
+    text-shadow: 0 0 5px #00aaff;
+}
+
+td button:hover {
+    background-color: #0099cc;
+    text-shadow: 0 0 10px #0099cc, 0 0 20px #0099cc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+form input:focus {
+    outline: none;
+    border: 1px solid #00aaff;
+}
+
+form button {
+    width: 200px;
+    background-color: #00aaff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    align-self: center;
+    color: white;
+    text-shadow: 0 0 5px #00aaff;
+}
+
+form button:hover {
+    background-color: #0099cc;
+    text-shadow: 0 0 10px #0099cc, 0 0 20px #0099cc;
+}
+
+.alert-message {
+    background-color: #222;
+    color: #00aaff;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    box-shadow: 0 0 10px #00aaff;
+}
+
+.error-message {
+    color: #ff4081;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-shadow: 0 0 5px #ff4081;
+}
