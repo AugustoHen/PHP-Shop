@@ -33,17 +33,17 @@ Comecei esse projeto como uma forma de colocar em prática tudo o que venho apre
 ## Como rodar o projeto
 
 1. Clone o repositório:
-    -https://github.com/augustobarroshen/PHP-Shop
+    -https://github.com/AugustoHen/PHP-Shop/
 
 2. Coloque a pasta do projeto dentro de `htdocs`, no XAMPP.
 
 3. Importe o banco de dados:
-   - O arquivo está em `CasoPhp/sql/lojabanda.sql`
+   - O arquivo está em `PHP-Shop/sql/lojabanda.sql`
    - Use o phpMyAdmin para importar
 
 4. Acesse no navegador:
    ```
-   http://localhost/loja-php
+   http://localhost/PHP-Shop
    ```
 
 ---
@@ -67,8 +67,8 @@ Me chamo **Augusto Barros Henriques**, estou começando na área de desenvolvime
 ## Contato
 
 - **Email:** augustobarroshen@gmail.com  
-- **LinkedIn:** https://www.linkedin.com/in/augusto-henriques-793375206/) 
-- **GitHub:** https://github.com/augustobarroshen
+- **LinkedIn:** https://www.linkedin.com/in/augusto-henriques-793375206/
+- **GitHub:** https://github.com/AugustoHen
 
 ---
 
