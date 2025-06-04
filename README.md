@@ -33,7 +33,7 @@ Comecei esse projeto como uma forma de colocar em prática tudo o que venho apre
 ## Como rodar o projeto
 
 1. Clone o repositório:
-    -https://github.com/augustobarroshen/loja-php.git
+    -https://github.com/augustobarroshen/PHP-Shop
 
 2. Coloque a pasta do projeto dentro de `htdocs`, no XAMPP.
 
