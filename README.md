@@ -43,7 +43,7 @@ Comecei esse projeto como uma forma de colocar em prática tudo o que venho apre
 
 4. Acesse no navegador:
    ```
-   http://localhost/PHP-Shop
+   http://localhost/PHP-Shop/php
    ```
 
 ---
